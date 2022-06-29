@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { useRouter } from "next/router";
 import projectData from "../../components/data";
+import Head from "next/head";
 import Link from "next/link";
 import { useStateValue } from "../../stateProvider";
 import headIcon from "../../svgs/he2.svg";
