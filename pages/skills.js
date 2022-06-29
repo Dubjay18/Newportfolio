@@ -30,7 +30,7 @@ function Projects() {
           <div className="flex w-full  items-center justify-center px-4">
             {" "}
             <h1 className="prose prose-lg text-primary font-bold md:text-6xl xs:text-4xl text-2xl">
-              What I can use
+              What can i use
             </h1>{" "}
             <hr className="w-24 md:block hidden mx-5 border-t-4 rounded-md border-secondary" />
           </div>
