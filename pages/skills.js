@@ -42,7 +42,7 @@ function Projects() {
                 width={40}
                 src="https://img.icons8.com/office/40/000000/react.png"
               />
-              <h2 className="mx-2">React js</h2>
+              <h2 className="mx-2">React.js</h2>
             </div>
             <div className="p-8 flex items-center bg-base-200 rounded-md shadow-md">
               <img
@@ -50,7 +50,7 @@ function Projects() {
                 width={40}
                 src="https://img.icons8.com/fluency/48/000000/node-js.png"
               />
-              <h2 className="mx-2">Node js</h2>
+              <h2 className="mx-2">Node.js</h2>
             </div>
             <div className="p-8 flex items-center bg-base-200 rounded-md shadow-md">
               <img
@@ -59,7 +59,7 @@ function Projects() {
                 src="https://img.icons8.com/color/48/000000/nextjs.png"
                 alt=""
               />
-              <h2 className="mx-2">Next js</h2>
+              <h2 className="mx-2">Next.js</h2>
             </div>
             <div className="p-8 flex items-center bg-base-200 rounded-md shadow-md">
               <img
@@ -87,7 +87,7 @@ function Projects() {
             </div>
             <div className="p-8 flex items-center bg-base-200 rounded-md shadow-md">
               <img height={40} width={40} src="/tailwind-css.svg" alt="" />
-              <h2 className="mx-2">Tailwind CSS</h2>
+              <h2 className="mx-2">Tailwind&nbsnp;CSS</h2>
             </div>
             <div className="p-8 flex items-center bg-base-200 rounded-md shadow-md">
               <img
