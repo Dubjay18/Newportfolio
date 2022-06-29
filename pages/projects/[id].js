@@ -32,7 +32,7 @@ const project = () => {
         <meta property="og:image" content={ogIcon} />
       </Head>
       <div className="w-screen h-[40vh] relative">
-        <div className="absolute top-0 left-0 w-full h-[40vh] bg-black/70 z-10" />
+        <div className="absolute top-0 left-0 w-full h-[40vh] bg-base-100/70 z-10" />
         <Image
           className="absolute z-1"
           layout="fill"
@@ -92,3 +92,13 @@ const project = () => {
 };
 
 export default project;
+export async function getServerSideProps(context) {
+  await waitload(2);
+  return {
+    props: { dummy: "dummy" }, // will be passed to the page component as props
+  };
+}
+
+function waitload(sec) {
+  return new Promise((resolve) => setTimeout(resolve, sec * 500));
+}
