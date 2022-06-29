@@ -3,6 +3,8 @@ import { useRouter } from "next/router";
 import projectData from "../../components/data";
 import Link from "next/link";
 import { useStateValue } from "../../stateProvider";
+import headIcon from "../../svgs/he2.svg";
+import ogIcon from "../../svgs/logoj.svg";
 const project = () => {
   const [{ darkmode }, dispatch] = useStateValue();
   const router = useRouter();
@@ -16,6 +18,18 @@ const project = () => {
   }
   return (
     <div className="w-full min-h-[92vh]">
+      <Head>
+        <title>Dev-Jay</title>
+        <link rel="icon" href={headIcon.src} sizes="16x16 32x32" />
+        <link
+          href="https://fonts.googleapis.com/css?family=Poppins"
+          rel="stylesheet"
+        />
+        <meta property="og:title" content="Jay's portfolio" />
+        <meta property="og:description" content="Devjay the full-stack dev" />
+
+        <meta property="og:image" content={ogIcon} />
+      </Head>
       <div className="w-screen h-[40vh] relative">
         <div className="absolute top-0 left-0 w-full h-[40vh] bg-black/70 z-10" />
         <Image

@@ -13,7 +13,7 @@ function Projects() {
       className={" overflow-hidden bg-base-100"}
     >
       <Head>
-        <title>Dev-Jay</title>
+        <title>Skills and tech</title>
         <link rel="icon" href={headIcon.src} sizes="16x16 32x32" />
         <link
           href="https://fonts.googleapis.com/css?family=Poppins"
